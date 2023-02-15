@@ -1,0 +1,331 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    background: #faf5ea;
+    font-family: Yu Gothic, 游ゴシック, YuGothic, 游ゴシック体, ヒラギノ角ゴ Pro W3, sans-serif;
+    font-size: 62.5%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-visual {
+    position: relative;
+    height: 100vh;
+    background: no-repeat fixed center url("img/hero.jpg");
+    background-size: cover;
+    line-height: 500%;
+}
+
+.main-visual h1 {
+    display: block;
+    width: 80%;
+    text-align: center;
+    font-size: 7rem;
+    letter-spacing: 20px;
+    font-family: 'Righteous', cursive;
+    line-height: 1.2;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-visual span {
+    font-size: 2rem;
+}
+
+.main-visual h3 {
+    display: block;
+    width: 80%;
+    text-align: center;
+    letter-spacing: 20px;
+    font-family: 'Righteous', cursive;
+    color: #fff;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.concept-photo {
+    width: 100vw;
+    background-image: url(img/concept.jpg);
+    height: 400px;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 100px;
+}
+
+main {
+    height: auto;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+
+.section-title {
+    display: block;
+    width: 30%;
+    color: #a03c8c;
+    font-size: 3.5rem;
+    text-align: center;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    letter-spacing: 3px;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 1px solid #a03c8c;
+}
+
+#concept {
+    background: #faf5ea;
+    padding-top: 100px;
+    height: auto;
+    overflow: hidden;
+}
+
+#concept p {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    color: #a03c8c;
+    font-size: 1.3rem;
+    font-weight: 100;
+    padding: 30px;
+    text-align: center;
+}
+
+#concept p span {
+    display: inline-block;
+}
+
+#concept img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+#menu {
+    padding-top: 100px;
+    height: auto;
+    overflow: hidden;
+}
+
+.menu-small-container {
+    width: 1200px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.menu-box {
+    margin: 100px 0;
+    height: auto;
+    overflow: hidden;
+}
+
+
+.menu-small {
+    overflow: hidden;
+    width: 1200px;
+    height: auto;
+    box-sizing: border-box;
+    margin-left: -30px;
+}
+
+
+
+.menu-small ul {
+    display: inline-block;
+}
+
+.menu-small ul li {
+    width: 270px;
+    height: 370px;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    margin: 0 0 30px 30px;
+    float: left;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+
+.menu-small ul li span {
+    padding-left: 20px;
+    font-size: 1.2rem;
+    font-weight: 800;
+
+}
+
+.product {
+    font-size: 2rem !important;
+}
+
+.menu-small ul li img {
+    max-height: 80%;
+    transform: translateX(-15%);
+}
+
+.cafe-photo {
+    width: 100vw;
+    background-image: url(img/cafe.jpg);
+    height: 400px;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: color-burn;
+    position: relative;
+}
+
+.cafe-photo p {
+    display: block;
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 20px;
+    font-family: 'Righteous', cursive;
+    line-height: 1.2;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#menu p {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    color: #a03c8c;
+    font-size: 1.3rem;
+    font-weight: 100;
+    padding: 30px;
+    text-align: center;
+}
+
+#menu p span {
+    display: inline-block;
+}
+
+
+iframe {
+    display: block;
+    margin: 30px auto;
+}
+
+#store p {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    color: #faf5ea;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+#store {
+    background: #a03c8c;
+    height: auto;
+    padding: 30px 0;
+}
+
+#store .section-title {
+    display: block;
+    width: 30%;
+    color: #faf5ea;
+    font-size: 3.5rem;
+    text-align: center;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    letter-spacing: 3px;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 1px solid #faf5ea;
+}
+
+
+
+footer {
+    width: 100%;
+    margin-top: auto;
+    background-color: #572b00;
+    color: #fff;
+    text-align: center;
+}
+
+/* ここまで全てに共通のスタイル */
+
+/* ここからスマホスタイル */
+/* width 480px以下の時に適用コード */
+@media all and(max-width: 480px){
+    
+    /* トップページ */
+
+    body{
+        background: #000;
+    }
+
+    .main-visual,
+    .concept-photo,
+    .cafe-photo{
+        background-attachment: scroll;
+    }
+
+    .main-visual h1 {
+        text-align: left;
+        font-size: 6rem;
+    }
+
+    .main-visual span{
+        font-size: 1.5rem;
+    }
+
+    .section-title{
+        width: 80px;
+    }
+
+    #concept p,
+    #menu p{
+        width: 70px;
+    }
+
+    main{
+        width: 100vw;
+        padding: 0;
+    }
+
+    .menu-small-container,
+    .menu-small{
+        width: 100vw;
+        margin-left: 0;
+    }
+
+    .menu-box{
+        margin: 0 0 50px 0;
+    }
+
+    .menu-small ul li{
+        width: 80vw;
+        margin: 15px 0;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    iframe{
+        width: 90vw;
+        height: 90vw;
+    }
+
+}
